@@ -1,6 +1,6 @@
 const io = require("socket.io")(process.env.PORT || 8900,{
     cors:{
-        origin : "http://localhost:5173"
+        origin : "https://669a468428818dc73a4fa073--fantastic-treacle-4d1529.netlify.app"
     },
 });
 let users = [];
