@@ -1,6 +1,6 @@
 const io = require("socket.io")(process.env.PORT || 8900, {
   cors: {
-    origin: "https://tubular-crostata-98c143.netlify.app",
+    origin: "https://eloquent-trifle-cad13f.netlify.app",
   },
 });
 let users = [];
